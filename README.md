@@ -6,8 +6,6 @@ Part of the [Speedrun modpack](https://thunderstore.io/c/hades-ii/p/adamant/Spee
 
 ## What It Does
 
-Balance Changes collects optional fixes and rule changes that alter weapon, boon, encounter, or damage behavior for speedrun consistency.
-
 Current options:
 
 - Braid Fix
@@ -19,9 +17,9 @@ Current options:
 - Omega Cast Fix
   Fixes omega-cast moves not counting as cast damage.
 - Poseidon Waves Fix
-  Fixes Poseidon waves on Axe special and Hidden Helix Torch.
+  Fixes Poseidon waves on Axe special and Hidden Helix Torch. It trigger poseidon splash on all 3 axe special hits and all 3 torch special balls.
 - Remove Second Channeling
-  Removes the second charge stage of Glorious Disaster and Giga Moonburst, baking the bonus into stage 1.
+  Removes the second charge stage of Glorious Disaster and Giga Moonburst, baking the bonus into stage 1. Magick increase stays the same
 - Shimmering Moonshot Fix
   Fixes Shimmering Moonshot not applying its damage bonus to omega special.
 - Extra Dose Fix
