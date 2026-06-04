@@ -25,17 +25,10 @@ function module.drawTab(draw, state, options, checkboxOptsByAlias)
     drawOptions(draw, state, options, checkboxOptsByAlias)
 end
 
-function module.drawQuickContent(draw, state, options, checkboxOptsByAlias)
-    drawOptions(draw, state, options, checkboxOptsByAlias)
-end
-
 function module.attach(libModule, options)
     local checkboxOptsByAlias = buildCheckboxOptions(options)
     libModule.ui.tab(function(_, ui)
         return module.drawTab(ui.draw, ui.data, options, checkboxOptsByAlias)
-    end)
-    libModule.ui.quickContent(function(_, ui)
-        return module.drawQuickContent(ui.draw, ui.data, options, checkboxOptsByAlias)
     end)
 end
 

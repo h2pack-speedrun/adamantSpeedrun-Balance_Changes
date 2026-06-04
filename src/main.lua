@@ -34,7 +34,7 @@ local function init()
         modpack = PACK_ID,
         id = MODULE_ID,
         name = "Balance Changes",
-        shortName = "BalanceChanges",
+        shortName = "Balance Changes",
         tooltip = "Balance change options for the Speedrun modpack.",
     })
     if not module then
