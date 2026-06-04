@@ -17,7 +17,7 @@ lib = mods["adamant-ModpackLib"]
 local config = chalk.auto("config.lua")
 
 local PACK_ID = "speedrun"
-local MODULE_ID = "BalanceChanges"
+local MODULE_ID = "Balance_Changes"
 local PLUGIN_GUID = _PLUGIN.guid
 
 local function init()

@@ -12,7 +12,7 @@ function data.buildStorage(options)
                 default = option.default == true,
             })
         else
-            error(("Unsupported option type '%s' in %s"):format(tostring(option.type), PACK_ID .. ".BalanceChanges"))
+            error(("Unsupported option type '%s' in %s"):format(tostring(option.type), PACK_ID .. ".Balance_Changes"))
         end
     end
     return storage
