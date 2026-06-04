@@ -2,11 +2,11 @@
 schemaVersion = "0.0.1"
 
 [package]
-namespace = "adamant"
-name = "Speedrun_Balance_Changes"
+namespace = "adamantSpeedrun"
+name = "Balance_Changes"
 description = "Balance change options for the Speedrun modpack."
 versionNumber = "0.0.1"
-websiteUrl = "https://github.com/h2pack-speedrun/adamant-Speedrun_Balance_Changes"
+websiteUrl = "https://github.com/h2pack-speedrun/adamantSpeedrun-Balance_Changes"
 containsNsfwContent = false
 
 [package.dependencies]

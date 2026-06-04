@@ -2,7 +2,7 @@
 
 Small collection of options that I consider borderline for bug fixes/balance changes for the modpack.
 
-Part of the [Speedrun modpack](https://thunderstore.io/c/hades-ii/p/adamant/Speedrun_Modpack/).
+Part of the [Speedrun modpack](https://thunderstore.io/c/hades-ii/p/adamantSpeedrun/Speedrun_Modpack/).
 
 ## What It Does
 
@@ -39,4 +39,4 @@ Current options:
 
 Install via r2modman.
 
-This module is usually installed as part of the full [Speedrun modpack](https://thunderstore.io/c/hades-ii/p/adamant/Speedrun_Modpack/), where it appears in the shared Speedrun UI with the other speedrun-focused modules.
+This module is usually installed as part of the full [Speedrun modpack](https://thunderstore.io/c/hades-ii/p/adamantSpeedrun/Speedrun_Modpack/), where it appears in the shared Speedrun UI with the other speedrun-focused modules.
