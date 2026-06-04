@@ -1,8 +1,3 @@
--- =============================================================================
--- ADAMANT MODULE TEMPLATE
--- =============================================================================
--- Copy this file as src/main.lua in a new module repo.
--- Fill in the SCAFFOLD_TODO sections below.
 -- luacheck: globals rom import_as_fallback modutil lib _PLUGIN game
 
 local mods = rom.mods
@@ -28,9 +23,10 @@ local PLUGIN_GUID = _PLUGIN.guid
 local function init()
     import_as_fallback(rom.game)
 
-    local data = import("mods/data.lua")
-    local logic = import("mods/logic.lua").bind(data)
-    local ui = import("mods/ui.lua").bind(data)
+    local data = import("data.lua")
+    local behaviors = import("behaviors.lua")
+    local logic = import("logic.lua")
+    local ui = import("ui.lua")
 
     local module = lib.createModule({
         pluginGuid = PLUGIN_GUID,
@@ -45,15 +41,13 @@ local function init()
         return
     end
 
-    module.data.define(data.buildStorage())
-    module.ui.tab(ui.drawTab)
-    module.ui.quickContent(ui.drawQuickContent)
+    module.data.define(data.buildStorage(behaviors.options))
+    ui.attach(module, behaviors.options)
     module.fallbackUi.attachGuiOnce(function(fallbackUi)
         rom.gui.add_imgui(fallbackUi.renderWindow)
         rom.gui.add_to_menu_bar(fallbackUi.addMenuBar)
     end)
-
-    logic.attach(module)
+    logic.attach(module, behaviors.patches, behaviors.hooks)
 
     local ok = module.activate()
     if not ok then
