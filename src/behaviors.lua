@@ -17,18 +17,13 @@ local function register(path)
     end
 end
 
-register("behaviors/BraidFix.lua")
-register("behaviors/CardioTorchFix.lua")
-register("behaviors/ETFix.lua")
+register("behaviors/AnubisWallPlacementFix.lua")
 register("behaviors/OmegaCastFix.lua")
 register("behaviors/PoseidonWavesFix.lua")
 register("behaviors/SecondStageChanneling.lua")
-register("behaviors/ShimmeringFix.lua")
-register("behaviors/ExtraDoseFix.lua")
 register("behaviors/SeleneFix.lua")
 register("behaviors/StagedOmegaFix.lua")
 register("behaviors/TidalRingFix.lua")
-register("behaviors/GGGFix.lua")
 register("behaviors/SufferingFix.lua")
 
 return behaviors

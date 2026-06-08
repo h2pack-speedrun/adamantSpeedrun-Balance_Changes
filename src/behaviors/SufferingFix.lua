@@ -24,7 +24,7 @@ return {
                         break
                     end
                 end
-                thread(DoCurseDamage, enemy, traitArgs, damageAmount, true)
+                thread(DoCurseDamage, enemy, traitArgs, damageAmount, { IgnoreHitShields = true })
             end)
         end,
     },

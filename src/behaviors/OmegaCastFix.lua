@@ -5,7 +5,7 @@ return {
         label = "Omega Cast Fix",
         default = true,
         tooltip =
-        "Fixes OCast moves not counting as cast damage."
+        "Adds missing omega-cast projectiles to the cast-damage projectile set."
     },
     patches = {
         {

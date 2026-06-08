@@ -8,30 +8,20 @@ Part of the [Speedrun modpack](https://thunderstore.io/c/hades-ii/p/adamantSpeed
 
 Current options:
 
-- Braid Fix
-  Fixes Braid of Atlas to properly buff casts.
-- Cardio Torch Fix
-  Fixes Cardio Gain interactions with Torch specials.
-- ET Fix
-  Fixes ET working with Anubis by creating a third omega attack field. Also fixes Anubis omega attack distance based on casting angle.
+- Anubis Wall Placement Fix
+  Fixes Mirrored Ankh omega attack wall placement based on casting angle.
 - Omega Cast Fix
-  Fixes omega-cast moves not counting as cast damage.
+  Adds missing omega-cast projectiles to the cast-damage projectile set.
 - Poseidon Waves Fix
   Fixes Poseidon waves on Axe special and Hidden Helix Torch. It trigger poseidon splash on all 3 axe special hits and all 3 torch special balls.
 - Remove Second Channeling
   Removes the second charge stage of Glorious Disaster and Giga Moonburst, baking the bonus into stage 1. Magick increase stays the same
-- Shimmering Moonshot Fix
-  Fixes Shimmering Moonshot not applying its damage bonus to omega special.
-- Extra Dose Fix
-  Fixes Extra Dose interactions with Coat second punch and dash strike.
 - Aspect of Selene Fix
-  Makes Aspect of Selene properly register its Hex so Path of Stars can be offered directly. Skyfall starts at full Moonglow.
-- Axe and Blade Omega Channel Fix
-  Fixes Axe omega attack and Blade omega special not benefiting correctly from channeling bonuses.
+  Treats Aspect of Selene's built-in Hex as the run's Selene pickup so Path of Stars replaces normal Selene drops. Skyfall starts at full Moonglow.
+- Axe Omega Channel Fix
+  Fixes Axe omega attack not benefiting correctly from channeling bonuses.
 - Tidal Ring Fix
   Fixes Tidal Ring not hitting the same mob twice with Circe.
-- GGG Echo Fix
-  Allows GGG to be offered in Jeweled Pom runs.
 - Suffering Fix
   Fixes Suffering on Sight not bypassing the Wards vow when dealing damage.
 
