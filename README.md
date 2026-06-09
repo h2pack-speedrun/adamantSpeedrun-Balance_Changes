@@ -17,11 +17,12 @@ Current options:
 - Remove Second Channeling
   Removes the second charge stage of Glorious Disaster and Giga Moonburst, baking the bonus into stage 1. Magick increase stays the same
 - Aspect of Selene Fix
-  Treats Aspect of Selene's built-in Hex as the run's Selene pickup so Path of Stars replaces normal Selene drops. Skyfall starts at full Moonglow.
+  Treats Aspect of Selene's built-in Hex as the run's Selene pickup so Path of Stars replaces normal Selene drops. 
+  Skyfall starts at full Moonglow.
 - Axe Omega Channel Fix
   Fixes Axe omega attack not benefiting correctly from channeling bonuses.
 - Tidal Ring Fix
-  Fixes Tidal Ring not hitting the same mob twice with Circe.
+  Fixes Tidal Ring not hitting the same mob twice with Aspect of Circe.
 - Suffering Fix
   Fixes Suffering on Sight not bypassing the Wards vow when dealing damage.
 
