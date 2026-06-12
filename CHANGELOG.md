@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [3.0.0] - 2026-06-12
+
+### Changed
+
+- use native module config backend (
+89fc74)
+
 ## [2.0.1] - 2026-06-09
 
 ## [2.0.0] - 2026-06-09
